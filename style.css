@@ -1,6 +1,17 @@
 #logo {
-    position: absolute;
-    margin: auto;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 198px;
+}
+
+#searchbox {
+    border:1px solid;
+    display:block;
+    margin: 0 auto;
+}
+
+span {
+    border:1px solid;
+    margin: 0 auto;
+}
