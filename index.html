@@ -1,21 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Google Homepage</title>
 </head>
 <body>
-    <div>
-        <img id="logo" src="https://www.google.com.kh/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" align="middle">
-    </div>
-    <div>
+
+    <!-- Top navigation -->
+    <nav class="nav-top">
+        <ul>
+            <li><a href="https://accounts.google.com">Gmail</a>
+            </li>
+            <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=ABIcWOmCCImS8wXXwp3ICg&ved=0EKouCBcoAQ">Images</a>
+            </li>
+            <li><a href="https://www.google.com/intl/en/about/products/"><img class="app" src="images/apps.png" alt="app search icon"></a>
+            </li>
+            <li><a class="btn-sign-in" href="https://accounts.google.com/ServiceLogin?sacu=1&hl=EN#identifier">Sign in</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Logo,textfield and search buttons -->
+    <div class="container">
+        <img class="google-logo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
         <form>
-            <input id="searchbox" type="text"><br>
-                <span>
-                    <input class="submit" type="submit" value="Google Search">
-                    <input class="submit" type="submit" value="I'm Feeling Lucky">
-                </span>
+            <input class="google-search" type="text" name="google-search">
+                <div class="btn-container">
+                    <input class="btn btn-search" type="submit" value="Google Search">
+                    <input class="btn btn-lucky" type="submit" value="I'm Feeling Lucky">
+                </div>
         </form>
     </div>
+
+    <!-- MICROPHONE ICON
+                    <div class="micro-div"><a href="https://accounts.google.com" title="Search by voice" class="tooltip"><span><img class="micro" src="images/download.png" alt="microphone"></span></a>
+                    </div>
+            -->
+
+    <!-- Bottom navigation -->
+    <div class="nav-bottom">
+
+        <nav class="nav-bottom-left">
+            <ul>
+                <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+                </li>
+                <li><a href="https://www.google.com/services/?fg=1#?modal_active=none">Business</a>
+                </li>
+                <li><a href="https://www.google.com/intl/en/about/">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav-bottom-right">
+            <ul>
+                <li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+                </li>
+                <li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+                </li>
+                <li><a href="#">Settings</a>
+                </li>
+                <li><a href="https://www.google.com.kh/?gws_rd=cr,ssl&ei=5QwcWMitPIuq8QWFxar4Dg">Use Google.com.kh</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
 </body>
 </html>
